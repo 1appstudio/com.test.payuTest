@@ -1,6 +1,6 @@
 {
   "name": "payutesting",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Testing",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -36,7 +36,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/1appstudio/payutesting",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1appstudio/payutesting.git"
+  },
   "author": "appstudio@icloud.com <iappstudio@icloud.com> (https://github.com/1appstudio)",
   "license": "MIT",
   "bugs": {
@@ -143,5 +146,8 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "example": "example"
   }
 }
