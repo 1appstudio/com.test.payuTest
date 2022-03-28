@@ -96,7 +96,8 @@ class CCWebViewController: UIViewController,WKUIDelegate,WKNavigationDelegate {
     }
     
     
-    private func startTransaction(){
+    private func startTransaction() {
+         NSLog("START TRANSACTION", ""+paymentData!.transUrl)
          do{
             CCWebViewController.statusCode = 0
             //Preparing for webview call

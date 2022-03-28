@@ -58,17 +58,17 @@ struct AvenueParams {
 
 
 struct PaymentDetails{
-    var accessCode: String
-    var merchantId: String
-    var orderId: String
-    var currency : String
-    var amount : String
-    var language:String
-    var rsaKeyUrl:String
+//    var accessCode: String
+//    var merchantId: String
+//    var orderId: String
+//    var currency : String
+//    var amount : String
+//    var language:String
+//    var rsaKeyUrl:String
     var redirectUrl:String
-    var cancelUrl : String
+//    var cancelUrl : String
     var transUrl:String
-    var paymentOption: String?
+//    var paymentOption: String?
 }
 
 struct BillingDetails{
