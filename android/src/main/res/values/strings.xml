@@ -1,5 +1,0 @@
-<resources>
-    <string name="noInternetConnection">No internet connection</string>
-    <string name="myhandler">MyHandlerKey</string>
-    <string name="keySendInternetStatus">Broadcast_Internet_Status</string>
-</resources>

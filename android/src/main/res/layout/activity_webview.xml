@@ -8,9 +8,9 @@
             android:id="@+id/webView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:visibility="gone"/>
+            android:visibility="visible"/>
 
-    <ImageView
+    <!-- <ImageView
             android:id="@+id/imgv_network_error"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -32,6 +32,6 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"/>
 
-    </RelativeLayout>
+    </RelativeLayout> -->
 
 </FrameLayout>
